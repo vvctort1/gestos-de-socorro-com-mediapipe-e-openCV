@@ -79,7 +79,7 @@ with mp_holistic.Holistic(model_complexity=1, smooth_landmarks=True) as holistic
             tem_mao_esquerda = results.left_hand_landmarks is not None
             pulso_acima = pulso_direito_y < altura_cabeca if tem_mao_direita else False
 
-            # ===== Comando 1: Indicador e médio levantados em ambas as mãos (PRIORIDADE) =====
+            # Comando 1: Indicador e médio levantados em ambas as mãos
             if tem_mao_esquerda and tem_mao_direita:
                 mao_esq_ok = dois_dedos_levantados(results.left_hand_landmarks)
                 mao_dir_ok = dois_dedos_levantados(results.right_hand_landmarks)
@@ -88,9 +88,9 @@ with mp_holistic.Holistic(model_complexity=1, smooth_landmarks=True) as holistic
                     comando = '2'
                     debug_info = "Ambas maos com 2 dedos"
                     cv2.putText(frame, "Paciente chamando ajuda", (10, 30),
-                                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
 
-            # ===== Comando 2: Pulso direito acima da cabeça e só o dedo indicador levantado =====
+            # = Comando 2: Pulso direito acima da cabeça e só o dedo indicador levantado 
             elif tem_mao_direita and pulso_acima:
                 if apenas_dedo_indicador(results.right_hand_landmarks):
                     comando = '1'
@@ -98,7 +98,7 @@ with mp_holistic.Holistic(model_complexity=1, smooth_landmarks=True) as holistic
                     cv2.putText(frame, "Paciente sentindo dor", (10, 30),
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 
-            # ===== Caso contrário, estado normal =====
+            # = Caso contrário, estado normal, sem chamados de pacientes
             if comando is None:
                 comando = '0'
                 cv2.putText(frame, "Sem chamados", (10, 30),
@@ -119,7 +119,7 @@ with mp_holistic.Holistic(model_complexity=1, smooth_landmarks=True) as holistic
         if contador_frames_comando >= frames_necessarios:
             comando_confirmado = comando_atual_detectado
 
-        # Envia comando apenas se for diferente do anterior e confirmado
+        # Envia comando apenas se for diferente do anterior e confirmado (evita spamns)
         tempo_atual = time.time()
         if comando_confirmado is not None and comando_confirmado != ultimo_comando:
             arduino.write(comando_confirmado.encode())
