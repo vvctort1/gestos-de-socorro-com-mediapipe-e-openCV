@@ -81,6 +81,7 @@ Acesse o vídeo de demonstração <a href="https://www.youtube.com/watch?v=txpcA
   </tr>
 </table>
 
+&nbsp;
 
 # SEM ALERTA - situação normal
 <img src="./images/image11.png" alt="normal image" height="500" width="500">
