@@ -51,7 +51,7 @@ As tecnologias que utilizamos foram: Python + Mediapipe (holistic para poses e m
 
 &nbsp;
 
-Vídeo de Demonstração clincando <a href="https://www.youtube.com/watch?v=txpcAQRJ6Q0">aqui</a>
+Acesse o vídeo de demonstração <a href="https://www.youtube.com/watch?v=txpcAQRJ6Q0">aqui</a>
 
 &nbsp;
 
