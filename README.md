@@ -2,21 +2,22 @@
 
 # Descrição do Problema
 
-A falta de energia elétrica é um desafio preocupante e crescente que afeta a vida de pessoas no mundo todo. Devido às mudanças climáticas, alagamentos, ventanias fortes e tempestades se tornaram mais recorrentes, provocando desde quedas de energia temporárias até danos severos e prolongados nas redes de distribuição.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;A falta de energia elétrica é um desafio preocupante e crescente que afeta a vida de pessoas no mundo todo. Devido às mudanças climáticas, alagamentos, ventanias fortes e tempestades se tornaram mais recorrentes, provocando desde quedas de energia temporárias até danos severos e prolongados nas redes de distribuição.</p>
 
-Fortes ventanias e tempestades podem causar quedas de árvores e rompimento de cabos, interrompendo o fornecimento de energia para milhares de residências, comércios e serviços essenciais como hospitais, bancos e sistemas de abastecimento de água. Alagamentos e enchentes podem danificar transformadores e subestações de distribuição, dificultando reparos por parte das equipes técnicas. 
 
-Portanto, a relação entre eventos climáticos extremos e a vulnerabilidade de infraestruturas elétricas, representam um desafio urgente para governos, concessionárias e a sociedade, exigindo planejamento, prevenção e adaptação em todos os setores.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Fortes ventanias e tempestades podem causar quedas de árvores e rompimento de cabos, interrompendo o fornecimento de energia para milhares de residências, comércios e serviços essenciais como hospitais, bancos e sistemas de abastecimento de água. Alagamentos e enchentes podem danificar transformadores e subestações de distribuição, dificultando reparos por parte das equipes técnicas. </p>
+
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Portanto, a relação entre eventos climáticos extremos e a vulnerabilidade de infraestruturas elétricas, representam um desafio urgente para governos, concessionárias e a sociedade, exigindo planejamento, prevenção e adaptação em todos os setores.</p>
 
 # Visão Geral da Solução
 
-O crescimento desse problema nos mostra que é necessário investir em soluções para mitigar os riscos atrelados. O uso da tecnologia com estratégias adequadas podem ajudar a salvar vidas.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;O crescimento desse problema nos mostra que é necessário investir em soluções para mitigar os riscos atrelados. O uso da tecnologia com estratégias adequadas podem ajudar a salvar vidas.</p>
 
-Imagine o seguinte cenário: Uma cidade costeira sofre enchentes devastadoras. A polícia civil emite um alerta de emergência para evacuação de algumas áreas da cidade, e o hospital passou a receber vítimas em volume muito acima do habitual. Para piorar, o sistema de alarme interno do hospital estava fora do ar devido à queda de energia causada pelas enchentes.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Imagine o seguinte cenário: Uma cidade costeira sofre enchentes devastadoras. A polícia civil emite um alerta de emergência para evacuação de algumas áreas da cidade, e o hospital passou a receber vítimas em volume muito acima do habitual. Para piorar, o sistema de alarme interno do hospital estava fora do ar devido à queda de energia causada pelas enchentes.</p>
 
-Pensando nisso, desenvolvemos um sistema de detecção de gestos de socorro, que permite que pacientes com dores ou que necessitam de alguma ajuda, consigam emitir alertas, mesmo em ambientes com baixa luminosidade. 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Pensando nisso, desenvolvemos um sistema de detecção de gestos de socorro, que permite que pacientes com dores ou que necessitam de alguma ajuda, consigam emitir alertas, mesmo em ambientes com baixa luminosidade. </p>
 
-Como o sistema foi feito para ser utilizado em casos de apagões, o funcionamento do sistema de alerta utiliza bateria interna e sua ativação é feita quando é detectado falha no sistema de alarme principal do hospital. Para facilitar o conhecimento dos diferentes gestos de ativação de ajuda, seria colocada uma imagem ilustrativa na parede do quarto do paciente internado com instruções em casos de apagão.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Como o sistema foi feito para ser utilizado em casos de apagões, o funcionamento do sistema de alerta utiliza bateria interna e sua ativação é feita quando é detectado falha no sistema de alarme principal do hospital. Para facilitar o conhecimento dos diferentes gestos de ativação de ajuda, seria colocada uma imagem ilustrativa na parede do quarto do paciente internado com instruções em casos de apagão.</p>
 
 As tecnologias que utilizamos foram: Python + Mediapipe (holistic para poses e mãos) + Arduíno e componentes.
 
