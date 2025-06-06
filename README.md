@@ -55,21 +55,48 @@ Acesse o vídeo de demonstração <a href="https://www.youtube.com/watch?v=txpcA
 
 &nbsp;
 
-# SEM ALERTA - situação normal
-<img src="./images/image11.png">
+## Integrantes
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>RM</th>
+    <th>Turma</th>
+  </tr>
+  
+  <tr>
+    <td>Gabriel Genaro Dalaqua</td>
+    <td>551986</td>
+    <td>3ESPF</td>
+  </tr>
+  
+  <tr>
+    <td>Paloma Mirela dos Santos Rodrigues</td>
+    <td>551321</td>
+    <td>3ESPF</td>
+  </tr>
+  <tr>
+    <td>Victor Kenzo Toma</td>
+    <td>551649</td>
+    <td>3ESPF</td>
+  </tr>
+</table>
 
-<img src="./images/image12.png">
+
+# SEM ALERTA - situação normal
+<img src="./images/image11.png" alt="normal image" height="500" width="500">
+
+<img src="./images/image12.png" alt="normal image 2" height="700" width="500">
 
 &nbsp;
 
 # AVISO - paciente pede ajuda
-<img src="./images/image21.png">
+<img src="./images/image21.png" alt="help image" height="500" width="500">
 
-<img src="./images/image22.png">
+<img src="./images/image22.png" alt="help image 2" height="700" width="500">
 
 &nbsp;
 
 # ALERTA - paciente sentindo dores
-<img src="./images/image31.png">
+<img src="./images/image31.png" alt="dores image" height="500" width="500">
 
-<img src="./images/image32.png">
+<img src="./images/image32.png" alt="dores image 2" height="700" width="500">
