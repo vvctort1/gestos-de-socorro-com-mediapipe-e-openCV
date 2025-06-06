@@ -16,7 +16,7 @@ Imagine o seguinte cenário: Uma cidade costeira sofre enchentes devastadoras. A
 
 Pensando nisso, desenvolvemos um sistema de detecção de gestos de socorro, que permite que pacientes com dores ou que necessitam de alguma ajuda, consigam emitir alertas, mesmo em ambientes com baixa luminosidade. 
 
-Como o sistema foi feito para ser utilizado em casos de apagões, o funcionamento do sistema de alerta utiliza bateria interna e sua ativação é feita quando é detectado falha no sistema de alarme principal do hospital. Para facilitar o conhecimento dos diferentes gestos de ativação de ajuda por gestos, seria colocado uma imagem ilustrativa com instruções em casos de apagão.
+Como o sistema foi feito para ser utilizado em casos de apagões, o funcionamento do sistema de alerta utiliza bateria interna e sua ativação é feita quando é detectado falha no sistema de alarme principal do hospital. Para facilitar o conhecimento dos diferentes gestos de ativação de ajuda, seria colocada uma imagem ilustrativa na parede do quarto do paciente internado com instruções em casos de apagão.
 
 As tecnologias que utilizamos foram: Python + Mediapipe (holistic para poses e mãos) + Arduíno e componentes.
 
